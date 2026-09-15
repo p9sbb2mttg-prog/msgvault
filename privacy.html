@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy &mdash; msgvault</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { max-width: 44rem; margin: 3rem auto; padding: 0 1.25rem;
+         font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  h1 { font-size: 1.85rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; }
+  h3 { font-size: 1rem; margin-top: 1.4rem; }
+  ul { padding-left: 1.25rem; }
+  li { margin: .3rem 0; }
+  .meta { color: #666; font-size: .9rem; }
+  .callout { border-left: 3px solid #0b62d6; padding: .6rem 1rem; margin: 1.25rem 0;
+             background: rgba(11,98,214,.06); }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #ddd;
+           font-size: .9rem; color: #666; }
+  a { color: #0b62d6; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="meta">Application: <strong>msgvault</strong> &middot; Effective date: 15 September 2026</p>
+
+<p>
+  This Privacy Policy explains what information the <strong>msgvault</strong> application
+  accesses, how that information is used, and how it is protected. msgvault is a
+  personal archival tool operated by its owner for their own accounts on their own hardware.
+</p>
+
+<h2>1. Who this applies to</h2>
+<p>
+  msgvault is a private, self-hosted application. It is used by a single operator to
+  archive that operator&rsquo;s own email, calendar, and related data. It is not a public
+  or commercial service, and it does not collect data from anyone other than its operator.
+</p>
+
+<h2>2. Information msgvault accesses</h2>
+<p>When you connect a Google account, msgvault requests access only to the following:</p>
+<ul>
+  <li><strong>Gmail &mdash; read access (<code>gmail.readonly</code>)</strong>:
+      to read messages, headers, labels, and attachments in your own mailbox.</li>
+  <li><strong>Gmail &mdash; modify access (<code>gmail.modify</code>)</strong>:
+      to maintain archive state (for example, applying labels used to track sync progress).
+      msgvault does <em>not</em> send, delete, or alter the content of your messages.</li>
+</ul>
+<p>
+  Only data belonging to the account that grants consent is accessed. No other user&rsquo;s
+  data is read.
+</p>
+
+<h2>3. How the information is used</h2>
+<ul>
+  <li>To create and maintain a <strong>local copy of your own mailbox</strong> for backup and archival.</li>
+  <li>To build a <strong>local full-text search index</strong> over that data.</li>
+  <li>To produce <strong>local analytics</strong> (for example, message counts over time)
+      for the operator&rsquo;s own use.</li>
+</ul>
+<p>
+  The data is used exclusively for these archival and personal-search purposes.
+</p>
+
+<h2>4. Storage and security</h2>
+<ul>
+  <li>All archived data is stored in a <strong>local database on hardware controlled by the operator</strong>
+      (a personal computer and a private home server).</li>
+  <li>There is <strong>no msgvault cloud service</strong> and no third-party storage provider.</li>
+  <li>OAuth credentials are stored with <strong>owner-only file permissions (0600)</strong> and are
+      transmitted only over encrypted connections (TLS) or the operator&rsquo;s private network.</li>
+  <li>Access to the local archive requires access to the operator&rsquo;s own devices.</li>
+</ul>
+
+<h2>5. Sharing and disclosure</h2>
+<p>
+  <strong>msgvault does not sell, rent, trade, or share your data with any third party.</strong>
+  Your data is not used for advertising, profiling, credit assessment, or any purpose
+  beyond the archival and search functions described above. No human other than the
+  operator reads the archived content.
+</p>
+
+<div class="callout">
+  <p>
+    <strong>Google API Services &mdash; Limited Use disclosure.</strong>
+    msgvault&rsquo;s use and transfer to any other app of information received from Google APIs
+    will adhere to the
+    <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+    including the <strong>Limited Use</strong> requirements.
+  </p>
+</div>
+
+<h2>6. Data retention and deletion</h2>
+<ul>
+  <li>Data is retained for as long as the operator keeps the local archive.</li>
+  <li>The operator can delete the archive at any time by removing the local database
+      and its associated files.</li>
+  <li>You can <strong>revoke msgvault&rsquo;s access to your Google account</strong> at any time at
+      <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+      Revoking access stops all further syncing immediately.</li>
+</ul>
+
+<h2>7. Children</h2>
+<p>msgvault is not directed at children and is not intended for use by anyone under 13.</p>
+
+<h2>8. Changes to this policy</h2>
+<p>
+  This policy may be updated to reflect changes in the application or in applicable
+  requirements. The effective date at the top of this page will be revised accordingly.
+</p>
+
+<h2>9. Contact</h2>
+<p>
+  Questions about this Privacy Policy or about how your data is handled may be sent to
+  <a href="mailto:querry.raobelina@gmail.com">querry.raobelina@gmail.com</a>.
+</p>
+
+<footer>
+  <p><a href="index.html">Home</a> &middot; <a href="privacy.html">Privacy Policy</a></p>
+</footer>
+
+</body>
+</html>
